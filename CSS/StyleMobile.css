@@ -1,0 +1,38 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: orange;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: gray;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(113, 216, 16);
+    color: black;
+}
+
+.navbar a.active {
+    background-color: blanchedalmond;
+    color: white;
+}
